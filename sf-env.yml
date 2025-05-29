@@ -1,4 +1,4 @@
-name: aa-env
+name: sf-env
 channels:
   - conda-forge
 dependencies:
