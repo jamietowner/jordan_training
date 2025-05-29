@@ -1,0 +1,17 @@
+name: aa-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10  # or your preferred version
+  - xarray
+  - pandas
+  - numpy
+  - tqdm
+  - eccodes
+  - jupyterlab
+  - jupytext
+  - netcdf4
+  - pip
+  - cdsapi
+  - pip:
+      - cfgrib
