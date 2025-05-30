@@ -2,16 +2,19 @@ name: sf-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.10  # or your preferred version
+  - python=3.10
+  - cdsapi
   - xarray
   - pandas
   - numpy
-  - tqdm
+  - matplotlib
+  - geopandas
+  - cartopy
+  - rioxarray
+  - rasterstats
+  - regionmask
+  - netcdf4
   - eccodes
   - jupyterlab
   - jupytext
-  - netcdf4
   - pip
-  - cdsapi
-  - pip:
-      - cfgrib
